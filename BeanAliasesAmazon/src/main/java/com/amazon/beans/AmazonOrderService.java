@@ -1,8 +1,8 @@
 package com.amazon.beans;
 
 public class AmazonOrderService {
-	private BlueDartServiceImpl bluedart;
-	private DTDCServiceImpl dtdc;
+	private IDelivery bluedart;
+	private IDelivery dtdc;
 
 	public void setBluedart(BlueDartServiceImpl bluedart) {
 		this.bluedart = bluedart;
